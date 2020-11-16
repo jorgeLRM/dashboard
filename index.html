@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
     <div class="container">
@@ -23,21 +26,89 @@
             </nav>
         </header>
         <section class="content-wrapper">
-            <aside class="aside">
-                <ul>
-                    <li><a href="">dasasd</a></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+            <aside class="sidebar">
+                <h3>Menú de navegación</h3>
+                <div class="treeview">
+                    <div class="tree">
+                        <a href="#" class="btn-tree no-collapse"><i class="fas fa-home"></i>Inicio</a>
+                    </div>
+                    <div class="tree">
+                        <a href="#" class="btn-tree"><i class="fas fa-box-open"></i>Inventario</a>
+                        <div class="tree-content">
+                            <a href="#">Ver todos</a>
+                            <a href="#">Agregar nuevo</a>
+                        </div>
+                    </div>
+                    <div class="tree">
+                        <a href="#" class="btn-tree"><i class="fas fa-shopping-cart"></i>Ventas</a>
+                        <div class="tree-content">
+                            <a href="#">Ver todos</a>
+                            <a href="#">Agregar nuevo</a>
+                        </div>
+                    </div>
+                    <div class="tree">
+                        <a href="#" class="btn-tree"><i class="fas fa-undo-alt"></i>Devoluciones</a>
+                        <div class="tree-content">
+                            <a href="#">Ver todos</a>
+                            <a href="#">Agregar nuevo</a>
+                        </div>
+                    </div>
+                    <div class="tree">
+                        <a href="#" class="btn-tree"><i class="fas fa-clipboard"></i>Proveedores</a>
+                        <div class="tree-content">
+                            <a href="#">Ver todos</a>
+                            <a href="#">Agregar nuevo</a>
+                        </div>
+                    </div>
+                    <div class="tree">
+                        <a href="#" class="btn-tree"><i class="fas fa-chart-line"></i>Reportes</a>
+                        <div class="tree-content">
+                            <a href="#">Ver todos</a>
+                            <a href="#">Agregar nuevo</a>
+                        </div>
+                    </div>
+                    <div class="tree">
+                        <a href="#" class="btn-tree"><i class="fas fa-user-plus"></i>Usuarios</a>
+                        <div class="tree-content">
+                            <a href="#">Ver todos</a>
+                            <a href="#">Agregar nuevo</a>
+                        </div>
+                    </div>
+                </div>    
             </aside>
             <div class="content">
-
+                <h2>Inicio <span>Panel de control</span></h2>
+                <div class="content-box">
+                    <div href="#" class="box">
+                        <a href=""><i class="fas fa-box-open"></i></a>
+                        <a href="#">Inventario</a>
+                    </div>
+                    <div href="#" class="box">
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#">Ventas</a>
+                    </div>
+                    <div href="#" class="box">
+                        <a href="#"><i class="fas fa-undo-alt"></i></a>
+                        <a href="#">Devoluciones</a>
+                    </div>
+                    <div href="#" class="box">
+                        <a href="#"><i class="fas fa-clipboard"></i></a>
+                        <a href="#">Proveedores</a>
+                    </div>
+                    <div href="#" class="box">
+                        <a href="#"><i class="fas fa-chart-line"></i></a>
+                        <a href="#">Reportes</a>
+                    </div>
+                    <div href="#" class="box">
+                        <a href="#"><i class="fas fa-user-plus"></i></a>
+                        <a href="#">Usuarios</a>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
 
     <script src="js/app.js"></script>
 </body>
+
 </html>
